@@ -12,7 +12,7 @@
  * [The Erlang Rationale](http://vidiowiki.com/media/paper/0m-V9dOL0AeY%20The_Erlang_Rationale.pdf)
  * [Making Reliable Distributed Systems in the Presence of software errors](http://www.sics.se/~joe/thesis/armstrong_thesis_2003.pdf)
  * [A little Erlang Tutorial](http://wrongnotes.blogspot.com/2007/09/little-erlang.html)
- * [Thinking in Erlang](http://ru.scribd.com/doc/44221/Thinking-in-Erlang)
+ * [Thinking in Erlang](http://ninenines.eu/talks/thinking-in-erlang/thinking-in-erlang.html)
  * [An Open Letter to the Erlang Beginner (or Onlooker)](http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html)
  * [Erlang is not a Concurrent Functional Programming Language](http://www.javalimit.com/2011/05/erlang-is-not-a-concurrent-functional-programming-language.html)
  * [Erlangs parallelism is not parallelism!](http://jlouisramblings.blogspot.co.nz/2011/07/erlangs-parallelism-is-not-parallelism.html)
@@ -86,6 +86,7 @@
  * [Designing for Scalability with Erlang/OTP: Implementing Robust, Fault-Tolerant Systems](http://www.amazon.com/gp/product/1449320732/)
  * [Getting functional with Erlang by Mark Nijhof](http://gettingfunctionalwitherlang.com/)
  * [Stuff Goes Bad: ERLANG IN ANGER by Fred Hébert](http://www.erlang-in-anger.com/)
+ * [The Erlanger Playbook by Loïc Hoguin](http://ninenines.eu/articles/erlanger-playbook/)
 
 ## Videos
 
@@ -203,11 +204,13 @@
  * [BossDB: a sharded, caching, pooling, evented ORM for Erlang](https://github.com/evanmiller/boss_db)
  * [SumoDB](https://github.com/inaka/sumo_db)
  * [Erlang VoltDB driver](https://github.com/VoltDB/voltdb-client-erlang)
- 
+ * [NIF based Erlang bindings for Couchbase ] (https://github.com/chitika/cberl)
+
 ## Database servers
 
  * [Lucene Server](https://github.com/tigertext/lucene_server)
  * [edis](http://inaka.github.io/edis/)
+ * [pulsedb](https://github.com/pulsedb/pulsedb)
 
 ## Loggers
 
@@ -263,6 +266,7 @@
  * [Comparison of Erlang Web Frameworks](https://github.com/evanmiller/ChicagoBoss/wiki/Comparison-of-Erlang-Web-Frameworks)
  * [Leptus - REST framework](https://github.com/s1n4/leptus)
  * [Lasse: Simple SSE handler for Cowboy](https://github.com/inaka/lasse)
+ * [Elli - Erlang web server for HTTP APIs](https://github.com/knutin/elli)
 
 ## Web servers
 
@@ -319,6 +323,10 @@
   * [eflame - Flame graph profiler for Erlang](https://github.com/proger/eflame)
   * [Elvis - Erlang Style Reviewer **(WIP)**](https://github.com/inaka/elvis)
 
+## Metrics
+
+  * [Expose Erlang Events and Metrics](https://github.com/boundary/folsom)
+
 
 ## Projects using Erlang
 
@@ -333,4 +341,5 @@
   * [Kha - continuous integration server in Erlang.](https://github.com/greenelephantlabs/kha)
   * [Logplex - syslog log router](https://github.com/heroku/logplex)
   * [Chef - configuration management software](http://www.getchef.com)
+  * [VerneMQ - MQTT message broker](https://verne.mq)
 
